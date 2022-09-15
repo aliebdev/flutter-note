@@ -43,9 +43,10 @@ class NoteAppbar extends StatelessWidget with PreferredSizeWidget {
                       child: Text(
                         title!,
                         style: const TextStyle(
-                          fontSize: 25,
+                          fontSize: 35,
                           fontWeight: FontWeight.bold,
                         ),
+                        // style: Get.theme.textTheme.headlineLarge,
                       ),
                     )
                   : const Spacer(),

@@ -9,6 +9,7 @@ class AppSnackbar {
     final snackBar = GetSnackBar(
       duration: const Duration(seconds: 2),
       snackPosition: SnackPosition.BOTTOM,
+      snackStyle: SnackStyle.GROUNDED,
       backgroundColor: isError ? AppColors.error : AppColors.primary,
       messageText: Text(
         message,
